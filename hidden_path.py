@@ -6,6 +6,7 @@ def main(strategy, filename):
 
 if __name__ == '__main__':   
     if len(sys.argv) < 3:
+        print("Hello World")
         # You can modify these values to test your code
         strategy = 'B'
         filename = 'example1.txt'
