@@ -6,7 +6,7 @@ import search
 def main(strategy, filename):
     
     start, grid, goal, teleports = fc.parse_input(filename)
-
+    search.search(strategy, grid, start, goal, teleports)
     
     return
 
