@@ -1,7 +1,7 @@
 from collections import deque
 import heapq
 import funcs
-
+# hi
 def search(strategy, grid, start, goal, teleports):
     expanded = []
     search_path = {start: None}
